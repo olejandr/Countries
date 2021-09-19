@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  font-family: sans-serif;
+  // background-color: #73775d;
+  background-color: #a58082;
+  color: #212;
+}
+.search-container,
+header {
+  padding: 1rem;
+  text-align: center;
+  a {
+    transition: font-size 0.2s ease-out;
+  }
+  a:hover {
+    cursor: pointer;
+    font-size: 1.1em;
+    color: rgb(20, 10, 20);
+  }
+}
+.country-card {
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: solid rgb(112, 40, 40) 2px;
+    border-radius: 5px;
+    background-color: #999;
+  }
